@@ -1,0 +1,53 @@
+@import '../dist/font-awesome-4.7.0/css/font-awesome.css';
+
+$primary-color: #948bda;
+
+body{
+  color:#000;
+}
+p{
+  color:red;
+  background-color: white;
+}
+
+.app{
+  h1{
+    font-family: monospace;
+    color: $primary-color;
+  }
+
+
+  ul{
+    width:870px;
+    border: 5px solid $primary-color;
+    padding: 0px;
+
+    li{
+      list-style: none;
+      width: 20px;
+      height: 20px;
+      background-color:#eee;
+      color: #eee;
+      margin: 1px 2px;
+      padding-left: 5px;
+      padding-top: 5px;
+
+      display: inline-block;
+    }
+
+    li:hover{
+      background-color: $primary-color;
+      color: $primary-color;
+    }
+
+    li.open{
+      background-color: #f9f9f9;
+      color: #f9f9f9;
+    }
+    li.bomb{
+      background-color: #f9f9f9;
+      color: darkred;
+    }
+  }
+
+}
