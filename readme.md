@@ -1,5 +1,5 @@
 # Run
-`git clone https://github.com/AliceWonderland/Minesweeper.git`
+To view `git clone https://github.com/AliceWonderland/Minesweeper.git`
 
 Browse to Minesweeper folder
 
